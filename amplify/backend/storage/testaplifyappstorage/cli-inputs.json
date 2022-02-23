@@ -1,0 +1,14 @@
+{
+  "resourceName": "testaplifyappstorage",
+  "policyUUID": "7e03ec9a",
+  "bucketName": "amplifyapp4b8a6734123c4f23a157fc51466de435",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
