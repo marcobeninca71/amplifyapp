@@ -5,12 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Amplify from 'aws-amplify';
 import config from './aws-exports';
+import { AmplifyProvider } from '@aws-amplify/ui-react'
+
 Amplify.configure(config);
 
 ReactDOM.render(
-  <React.StrictMode>
+  <AmplifyProvider>
     <App />
-  </React.StrictMode>,
+  </AmplifyProvider>,
   document.getElementById('root')
 );
 
